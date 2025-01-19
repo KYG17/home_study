@@ -10,11 +10,11 @@ public class Homework02 {
 		int a = sc.nextInt();
 		String b;
 		if(a%2 == 0) {
-			b ="짝수 ";
+			b ="짝수";
 		}else {
-			b ="홀수 ";
+			b ="홀수";
 		}
-        System.out.println("구슬의 개수는 "+ b + "입니다");
+        System.out.println("구슬의 개수는 "+ b + " 입니다");
 	}
 
 }
