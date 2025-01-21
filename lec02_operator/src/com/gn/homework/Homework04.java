@@ -21,6 +21,8 @@ public class Homework04 {
 		if(a >= 60 && b>=60 && c>=60 ) {
 			if(avg >= 90) {
 				System.out.println("휴대폰을 바꿀 수 있습니다");
+			}else {
+				System.out.println("평균 미달로 휴대폰을 바꿀 수 없습니다");
 			}
 		}else {
 			System.out.println("휴대폰을 바꿀 수 없습니다");
