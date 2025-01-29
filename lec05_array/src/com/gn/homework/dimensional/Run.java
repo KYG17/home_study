@@ -19,6 +19,7 @@ public class Run {
 		
 		switch(a) {
 		case 1 : p.practice01(); break;
+		case 2 : p.practice02(); break;
 		}
 		
 
