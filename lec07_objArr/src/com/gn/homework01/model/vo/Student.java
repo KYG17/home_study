@@ -19,13 +19,22 @@ public class Student {
 		this.math = math;
 	}
 	
-	public void information() {
-		int result = this.kor + this.eng + this.math;
-		System.out.println("==="+this.grade+"학년 "+this.classroom+"반 " + this.name );
-		System.out.println("국어 : " + this.kor);
-		System.out.println("영어 : " + this.eng);
-		System.out.println("수학 : " + this.math);
-		System.out.println("평균 : " + result / 3);
+//	public void information() {
+//		int result = this.kor + this.eng + this.math;
+//		System.out.println("==="+this.grade+"학년 "+this.classroom+"반 " + this.name );
+//		System.out.println("국어 : " + this.kor);
+//		System.out.println("영어 : " + this.eng);
+//		System.out.println("수학 : " + this.math);
+//		System.out.println("평균 : " + result / 3);
+//	}
+	
+	public String informaiton() {
+		int avg = (kor + eng + math) / 3;
+		return "국어 : " + this.kor + "점\n" +
+			   "영어 : " + this.eng + "점\n" +
+			   "수학 : " + this.math + "점\n" +
+			   "평군 : " + avg +"점";
+			   
 	}
 
 	public int getGrade() {

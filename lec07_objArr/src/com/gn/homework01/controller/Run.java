@@ -40,7 +40,7 @@ public class Run {
 		}
 		
 		for(int i = 0 ; i < count ; i++) {
-			arr[i].information();
+			System.out.println(arr[i].informaiton());
 		}
 		
 
